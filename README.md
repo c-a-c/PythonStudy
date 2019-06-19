@@ -48,3 +48,23 @@ mkdir 西暦日付曜日
 
 コードを書こう！
 
+#### 変更点をGitHubに適応しましょう！
+
+```
+git add 対象のファイル名
+git commit -m "作業内容"
+git push origin ブランチ名
+```
+
+#### プルリクエストを発行しよう!
+
+ページの上のところに "Pull Requests" に移動しよう。
+
+"New Pull Requests" を押しましょう。
+
+" base:master <- compare:自分のブランチ " になるように変更しましょう。
+
+最後に Create Pull Requests が押せたら完了！
+
+
+
