@@ -1,4 +1,8 @@
+# i, s = input().split(" ") # "123 apple"
 value = input()
+l = value.split(" ")
 
-print(value, type(value))
+i, s = l
 
+print(i, type(i))
+print(s, type(s))
